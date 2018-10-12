@@ -20,3 +20,9 @@ we can access a wide verity of meteorological data from the links listed in http
 ### Data pre-processing
 The data can be divided into sub-sets for training, validation
 and testing. The output of a neural network is typically between 0 and 1 therefore the raw rainfall figures have to be scaled to a range between 0 and 1 before it can be used as input. Feed-forward neural network architecture can be considered in all of the initial datapre-processing.
+### Real valued outputs
+The raw data can be scaled by calculating the maximum (Rmax ) value and minimum (Rmin ) value over a n entire data set and for each rainfall value (ri ) in the set. Equation below shows the transformation used for scaling, where Rmax and xmin are the maximum and minimum rainfall values, ri is the original, and xi is the scaled value.
+
+##### Equation :-
+- xi = (ri - Rmin) / (Rmax - Rmin)
+ 
