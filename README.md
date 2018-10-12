@@ -13,3 +13,7 @@ The mean percentage accuracy and correlation coefficient can be used to evaluate
 
 ### Data Preparation
 we can access a wide verity of meteorological data from the links listed in https://sites.google.com/site/geometocea/home/online-links/online-data-links as well as many more sources.we can use reanalysis data available from NOAA (NCEP/NCAR) or ECMWF (ERA).We can also consult India Meteorological Department (IMD) to get some station data.
+
+### Data set generation
+- Split-sample training is a common ANN training method .The basic idea behind this approach is to withhold a small subset of the data for validation, and to train the network on the remaining data.
+- The cross validation technique can also be used in ANN training.
