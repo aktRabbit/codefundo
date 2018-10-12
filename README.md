@@ -5,4 +5,8 @@ A flood prediction model can play a key role in providing relevant information o
 
 The risk of flood is affected by factors such as land use, meteorological events,hydrology and the topology of the land.In this  project,we can explore the use of artificial neural network models to predict the onset of floods. Rainfall is considered as the primary factor influencing the likelihood of flood .
 
-The mean percentage accuracy and correlation coefficient can be used to evaluate the performance of trained neural networks. A feed-forward model with six input neuronal units, four hidden units and one output unit can be used to produce the best predictive results for this type of neural network
+The mean percentage accuracy and correlation coefficient can be used to evaluate the performance of trained neural networks. A feed-forward model with six input neuronal units, four hidden units and one output unit can be used to produce the best predictive results for this type of neural network .
+
+##### Objectives :-
+- The main objective of this study is to research and develop artificial neural networks that can be used as model to predict the onset of floods.
+- To pre-process historical weather data into a form that is suitable for training neural networks and to identify the salient variables for training neural networks.
