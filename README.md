@@ -17,3 +17,6 @@ we can access a wide verity of meteorological data from the links listed in http
 ### Data set generation
 - Split-sample training is a common ANN training method .The basic idea behind this approach is to withhold a small subset of the data for validation, and to train the network on the remaining data.
 - The cross validation technique can also be used in ANN training.
+### Data pre-processing
+The data can be divided into sub-sets for training, validation
+and testing. The output of a neural network is typically between 0 and 1 therefore the raw rainfall figures have to be scaled to a range between 0 and 1 before it can be used as input. Feed-forward neural network architecture can be considered in all of the initial datapre-processing.
