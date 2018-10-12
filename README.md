@@ -21,9 +21,9 @@ we can access a wide verity of meteorological data from the links listed in http
 The data can be divided into sub-sets for training, validation
 and testing. The output of a neural network is typically between 0 and 1 therefore the raw rainfall figures have to be scaled to a range between 0 and 1 before it can be used as input. Feed-forward neural network architecture can be considered in all of the initial datapre-processing.
 ### Model design
-##### Data normalization
+##### Data normalization :
 As we mentioned above, the split-sample training is a common method to train ANN models. The 15-20 years data obtained can be divided into training,validation and test data sets after it had first been normalized to a certain range.The observed historical data for rainfall will be first normalized within a range of 0.1...0.9 as the ANN model can be the sigmoid transfer function.The normalized data will then be presented to the ANN model at the input layer.
-##### Model parameters
+##### Model parameters :
 The historical rainfall data in millimetres, will be used in this study since the advantage of our approach is that it
 does not require many variables and very little knowledge of the flooding domain.The model parameters such as the number of epochs were varied to achieve improved performance by conducting several training.
 ### Real valued outputs
