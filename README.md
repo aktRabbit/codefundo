@@ -1,3 +1,1 @@
-﻿Aim
-hi buddy
-slwhdw
+#Abstract
