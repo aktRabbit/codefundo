@@ -10,3 +10,6 @@ The mean percentage accuracy and correlation coefficient can be used to evaluate
 ##### Objectives :-
 - The main objective of this study is to research and develop artificial neural networks that can be used as model to predict the onset of floods.
 - To pre-process historical weather data into a form that is suitable for training neural networks and to identify the salient variables for training neural networks.
+
+### Data Preparation
+we can access a wide verity of meteorological data from the links listed in https://sites.google.com/site/geometocea/home/online-links/online-data-links as well as many more sources.we can use reanalysis data available from NOAA (NCEP/NCAR) or ECMWF (ERA).We can also consult India Meteorological Department (IMD) to get some station data.
